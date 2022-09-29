@@ -64,7 +64,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6, p {
   padding: 8px 0;
 }
 
@@ -91,7 +91,7 @@ img {
 
 /* header */
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("images/Emasho.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url("../images/Emasho.jpg") center/cover no-repeat;
   min-height: 100vh;
   color: #fff;
   padding: 25px;
@@ -148,23 +148,23 @@ img {
   cursor: pointer;
   transition: var(--transition);
 } 
-.stay, .dine{
-  margin: 20px 0;
-  font-size: 15px;
+.home-btn{
+  margin: 30px ;
+  font-size: 18px;
   font-weight: bold;
-  
-  background: transparent;
-  padding: 13px 20px;
-  background: rgba(0, 0, 0, 0.3);
-  color: rgb(5, 5, 5);
+  padding: 10px 20px;
+  background-color: #0d0925;
+  color: #eee;
   cursor: pointer;
   transition: var(--transition);
-}.stay,.dine.btn:hover{
+}.home-btn:hover{
   background: transparent;
+  color: #0d0925;
 }
 
 .head-btn:hover {
   background: transparent;
+  
 }
 
 @media(max-width: 500px) {
@@ -243,6 +243,7 @@ img {
 }
 
 /*home*/
+
 #home {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

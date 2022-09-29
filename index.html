@@ -70,15 +70,12 @@
                 connection to natural surrounding. More than just a resort, Emasho celebrates deeply rooted Kenyan
                 Maasai Culture, best Nyamachoma, Kuku and a lot more. Leave your worries behind and create unforgetable
                 memories. </p>
-            <button class="btn btn-custom" id="#rooms">Stay </button>
-            <button class="btn btn-custom" id="#dine">Dine</button>
+            <button class="home-btn">Stay </button>
+            <button class="home-btn">Dine</button>
 
         </div>
 <!--slider section-->
-        <div class="home-photo">
-
-            <img src="images/settings.jpg">
-        </div>
+       
 
     </section>
 
@@ -216,7 +213,7 @@
             <!-- single room -->
             <article class="room">
                 <div class="room-image">
-                    <img src="images/img3.jpg" alt="room image">
+                    <img src="../images/img3.jpg" alt="room image">
                 </div>
                 <div class="room-text">
                     <h3>Luxury Rooms</h3>
@@ -355,8 +352,7 @@
         <div class="footer-container">
             <div>
                 <h2>EMASHO  </h2>
-                <p>Welcome to Emasho Camp Resort, one designed to anticipate your every mood, delight senses and foster deep
-                    connection to natural surrounding. We are located along Isinya-Kiserian Road, 1KM from kiserian next to KOKOs Place.</p>
+                <p>Welcome to Emasho Camp Resort, We are located along Isinya-Kiserian Road, 1KM from kiserian next to KOKOs Place.</p>
                 <div id = "take-me-there">
                     <a target="_blank" href="https://www.google.com/maps/dir//EMASHO+CAMP+LODGE,+Kiserian+-+Isinya+Rd/@-1.4835967,36.7492353,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x182fa84789cf69d9:0x4b65892215e7abfd!2m2!1d36.7513836!2d-1.4836029"> <button class="btn btn-custom">Take Me</button></a>
                 </div>
@@ -375,18 +371,18 @@
 
             <div>
                 <h2>Useful Links</h2>
-                <a href="#">Book</a>
-                <a href="#">Rooms</a>
-                <a href="#">Contact</a>
+                <a href="#rooms">Book</a>
+                <a href="#rooms">Rooms</a>
+                <a href="#contact">Contact</a>
                 
             </div>
 
             <div>
                 <h2>Privacy</h2>
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact Us</a>
             </div>
 
             <div>
@@ -419,8 +415,14 @@
         </div>
     </footer>
     <!-- end of footer -->
-
     <script src="script.js"></script>
+    <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
 </body>
 
 </html>
